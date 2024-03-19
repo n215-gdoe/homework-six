@@ -1,0 +1,174 @@
+.main {
+  .israel_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-01.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .usa_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-02.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .aus_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-03.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .nz_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-04.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .france_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-05.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .egypt_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-06.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .japan_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-07.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .canada_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-08.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .uae_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour-09.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .internal_header {
+    font-size: 60px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 30px;
+    height: 400px;
+    margin: 0px 130px 40px;
+    @media (min-width: 1400px) {
+      margin: 0vh 250px 40px;
+    }
+    @media (min-width: 1600px) {
+      margin: 0vh 350px 40px;
+    }
+    @media only screen and (max-width: 900px) {
+      font-size: 30px;
+      margin: 0px 30px 40px;
+    }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .sub_Text {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      text-align: end;
+      font-size: 30px;
+      font-weight: 100;
+      @media only screen and (max-width: 900px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .images {
+    display: flex;
+    margin: 0px 100px 0px;
+    @media (min-width: 1400px) {
+      margin: 0vh 200px;
+    }
+    @media (min-width: 1600px) {
+      margin: 0vh 300px;
+    }
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .tour_image {
+      margin: 0px 10px 30px;
+      max-height: 350px;
+      max-width: 300px;
+    }
+  }
+  .tours_intenal_main {
+    margin: 0px 150px 40px;
+    @media (min-width: 1400px) {
+      margin: 0vh 250px;
+    }
+    @media (min-width: 1600px) {
+      margin: 0vh 350px;
+    }
+    @media only screen and (max-width: 900px) {
+      margin: 0px 30px 40px;
+    }
+    h2 {
+      font-size: 60px;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      color: #000000;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      color: #000000;
+      margin-bottom: 80px;
+    }
+    a {
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 50px;
+      border-radius: 20px;
+      padding: 11px 17px;
+      border: none;
+      background: #79addc;
+      text-decoration: none;
+      margin: 0px auto;
+      display: block;
+      width: max-content;
+      cursor: pointer;
+    }
+  }
+}

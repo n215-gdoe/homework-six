@@ -1,0 +1,62 @@
+.tours_main {
+  .cards_section {
+    top: 0px;
+    margin: 0vh 130px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 900px) {
+      margin: 0vh 30px;
+      flex-direction: row;
+    }
+    .card {
+      max-width: 236px;
+      margin: 0px 25px 50px;
+    }
+    .NewZealand {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/NewZealand.png);
+      h2 {
+        line-height: 1;
+      }
+    }
+    .France {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/France.png);
+    }
+    .Egypt {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/Egypt.png);
+    }
+    .UAE {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/UAE.png);
+    }
+    .Canada {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/Canada.png);
+    }
+    .Japan {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/Japan.png);
+    }
+  }
+}
+.tour_header {
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin: 0px 150px 50px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tour_header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media only screen and (max-width: 900px) {
+  margin: 0px 30px 50px;
+  }
+}
